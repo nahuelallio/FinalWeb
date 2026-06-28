@@ -1,0 +1,75 @@
+@font-face {
+        font-family: "titulos" ;
+        src: url("../Fuentes/nunito-sans.bold.ttf");
+    }
+@font-face {
+    font-family: "texto";
+    src: url(../Fuentes/nunito-sans.regular.ttf);
+}
+
+
+header nav{
+    background-color: rgb(66, 39, 4);
+    color: white;
+font-size: large;
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  line-height: 0%;
+}
+/*Se apila el menu al achicar pantalla! solucionar*/
+header nav a {
+    color: inherit;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    font-family: "titulos";
+    
+    font-size: 1rem;
+}
+
+
+
+
+.menu a:hover {
+    transform: scale(1.08);
+}
+
+
+
+.menu {
+    display: flex;
+    gap: 35px; 
+     padding: 0px 30px;
+}
+
+body{
+     margin: 0;
+    cursor: url("../Imagenes/CursorPix.png"), default;
+
+    
+     }
+
+ a {
+    cursor: url("../Imagenes/CursorClickPix.png"), pointer;
+}
+
+
+footer {
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+background-color: rgb(66, 39, 4);
+color: white;
+
+
+}
+
+footer div a {
+padding: 10px 10px;
+
+}

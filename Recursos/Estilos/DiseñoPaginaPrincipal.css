@@ -1,0 +1,94 @@
+@font-face {
+        font-family: "titulos" ;
+        src: url("../Fuentes/nunito-sans.bold.ttf");
+    }
+@font-face {
+    font-family: "texto";
+    src: url(../Fuentes/nunito-sans.regular.ttf);
+}
+
+
+h1{font-family: "titulos";
+    color: black;
+    font-size: 3rem;
+}
+
+p {
+    font-family: "texto";
+    color: black;
+    font-size: 2rem; 
+}
+
+h4{
+    font-family: "titulos";
+    font-size: 1.3rem;
+}
+
+div article p{
+    font-family: "texto";
+    font-size: 1rem;
+}
+
+article {
+    
+    border: solid;
+    width: 300px;
+    border-radius: 1rem;
+    border-color: rgb(66, 39, 4);
+    color: rgb(66, 39, 4);
+    
+}
+
+
+
+div h1{
+
+    text-align: center;
+}
+
+div p, h1{
+    margin-left: 4%;
+    margin-right: 4%;
+    
+}
+
+div section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 5% 0%;
+}
+
+div section a {
+text-decoration: none;
+
+}
+
+
+
+.articulo{
+    text-align: center;
+   min-height: 430px;
+   transition: transform 0.3s ease;
+background-color: rgb(66, 39, 4);
+}
+
+
+.articulo:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.4);
+}
+
+.imagenArticulo{
+    border-radius: 0.8rem 0.8rem 0rem 0rem;
+}
+
+.articulo p,h4{
+    color: white;
+    padding: 0% 10%;
+}
+
+
+
+

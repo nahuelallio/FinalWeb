@@ -1,0 +1,28 @@
+@font-face {
+        font-family: "titulos" ;
+        src: url("../Fuentes/nunito-sans.bold.ttf");
+    }
+@font-face {
+    font-family: "texto";
+    src: url(../Fuentes/nunito-sans.regular.ttf);
+}
+
+h1{font-family: "titulos";
+    color: black;
+    font-size: 3rem;
+}
+
+p {
+    font-family: "texto";
+    color: black;
+    font-size: 2rem; 
+}
+main div h1{
+
+    text-align: center;
+}
+main div {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+}
