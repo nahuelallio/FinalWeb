@@ -1,0 +1,40 @@
+@font-face {
+        font-family: "titulos" ;
+        src: url("../Fuentes/nunito-sans.bold.ttf");
+    }
+@font-face {
+    font-family: "texto";
+    src: url(../Fuentes/nunito-sans.regular.ttf);
+}
+
+
+h1{
+    text-align: center;
+font-family: "titulos";
+    color: black;
+    font-size: 3rem; 
+}
+
+
+
+div a{
+    
+    text-decoration: none;
+font-family: "texto";
+    color: black;
+    font-size: 2rem; 
+}
+div{
+    text-align: center;
+}
+
+body{
+     
+    cursor: url("../Imagenes/CursorPix.png"), default;
+
+    
+     }
+
+ a {
+    cursor: url("../Imagenes/CursorClickPix.png"), pointer;
+}
