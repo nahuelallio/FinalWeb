@@ -26,3 +26,47 @@ main div {
     margin-right: 4%;
     margin-top: 2%;
 }
+.formulario{
+    margin: auto;
+    width: 450px;
+    margin-bottom: 30px;
+    border: 2px solid black;
+}
+.formulario h3{
+    text-align: center;
+    font-family: "titulos";
+    font-size: 2rem;
+}
+
+
+.formulario form{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario label{
+    font-family: "texto";
+    font-size: 1.3rem;
+}
+
+
+.formulario input{
+    padding: 10px;
+    font-family: "texto";
+}
+
+
+.formulario textarea{
+    height: 100px;
+    font-family: "texto";
+}
+
+
+.formulario button{
+    width: 150px;
+    padding: 10px;
+    align-self: center;
+    cursor: url("../Imagenes/CursorClickPix.png"), pointer;
+}
