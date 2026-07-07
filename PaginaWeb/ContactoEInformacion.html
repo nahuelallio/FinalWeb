@@ -39,13 +39,13 @@
         <div class="formulario"><h3>Formulario de contacto</h3>
         <form action="./ConfirmacionDeEnvio.html">
             <label for="nombre">Ingrese su nombre completo: </label>
-            <input type="text" placeholder="Nombre y apellido" name="nombre" id="nombre">
+            <input type="text" placeholder="Nombre y apellido" name="nombre" id="nombre" required>
 
             <label for="email">Ingrese su direccion de correo electronica: </label>
-            <input type="email" placeholder="usuario@mail.com" name="email" id="email">
+            <input type="email" placeholder="usuario@mail.com" name="email" id="email" required>
 
             <label for="mensaje">Ingrese su consulta: </label>
-            <textarea name="mensaje" placeholder="Maximo 200 caracteres" maxlength="200" id="mensaje"></textarea>
+            <textarea name="mensaje" placeholder="Maximo 200 caracteres" maxlength="200" id="mensaje" required></textarea>
             <button type="submit">Enviar</button>
          </form>
         </div>
