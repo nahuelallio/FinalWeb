@@ -27,10 +27,8 @@ main div h1{
 }
 
 div audio{
-    
-    position: absolute;
-    
-
+    display:block;
+    margin:left;
 }
 
 main div {
