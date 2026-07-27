@@ -7,6 +7,10 @@
     src: url(../Fuentes/nunito-sans.regular.ttf);
 }
 
+main{
+    padding-top:58.4px;
+}
+
 .youtubeurl{
     color: red;
 }
