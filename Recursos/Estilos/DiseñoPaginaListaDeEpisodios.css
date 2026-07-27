@@ -27,8 +27,190 @@ main div h1{
 
     text-align: center;
 }
-main div {
-   margin: 20%;
-    margin-top: 4%;
-    margin-bottom: 4%;
+
+
+/* cartas que deslizan */
+
+.container{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:50px;
+
+    margin:60px auto;
+
+    width:100%;
 }
+
+.container .card .icon{
+    width:100%;
+    height:100%;
+}
+
+
+
+
+.container .card .icon img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+
+
+
+.container .card .icon {
+
+    position: absolute;
+
+   top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+   
+
+}
+
+.container .card .slide {
+    transition: 0.5s;
+
+}
+
+.container .card .slide.slide1 {
+
+    width: 400px;
+
+    height: 580px;
+
+   
+
+}
+
+.container .card .slide.slide2 {
+
+    width: 400px;
+
+    height: 320px;
+
+   
+
+}
+
+
+.container .card .content{
+    width:100%;
+    height:100%;
+}
+
+.container .card .slide.slide1 {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    z-index: 1;
+
+    transition: .7s;
+
+    transform: translateY(100px);
+
+}
+
+.container .card:hover .slide.slide1{
+
+    transform: translateY(0px);
+
+}
+
+.container .card .slide.slide2 {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+
+    transition: .8s;
+
+    transform: translateY(-250px);
+
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+
+}
+
+.container .card:hover .slide.slide2{
+
+    transform: translateY(0);
+
+}
+
+.container .card .slide.slide2::after{
+
+    content: "";
+
+    position: absolute;
+
+    width: 30px;
+
+    height: 4px;
+
+    bottom: 15px;
+
+    left: 50%;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+   
+
+}
+
+
+.temporada{
+
+    width:100%;
+    height:100%;
+
+    overflow-y:auto;
+}
+
+
+.temporada strong{
+    display:block;
+    text-align:center;
+    font-size:1.5rem;
+    margin-bottom:15px;
+}
+
+.temporada ol{
+    padding-left:22px;
+}
+
+.temporada li{
+    font-size:0.95rem;
+    margin-bottom:8px;
+}
+
+
+
+
+
