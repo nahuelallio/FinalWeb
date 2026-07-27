@@ -28,7 +28,9 @@ main div {
 }
 
 .peces{
-    display:flex; 
+    display:flex;
+        flex-wrap:wrap;
+    justify-content:center;
     margin: 5vh;
 }
 
