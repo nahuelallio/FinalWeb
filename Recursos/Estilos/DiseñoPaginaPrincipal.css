@@ -7,6 +7,9 @@
     src: url(../Fuentes/nunito-sans.regular.ttf);
 }
 
+main{
+    padding-top:58.4px;
+}
 
 h1{font-family: "titulos";
     color: black;
