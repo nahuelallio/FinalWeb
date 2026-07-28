@@ -103,10 +103,3 @@ main div {
 
 }
 
-.fondo{
-    background-image: url("../Imagenes/bajo del agua.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-bottom: 0.1px; 
-}
