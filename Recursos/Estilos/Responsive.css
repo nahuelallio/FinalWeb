@@ -16,7 +16,7 @@
     font-size: clamp(1rem, 3.8vw, 1.2rem);
     }
 
-    p {
+    p, li {
     font-size: clamp(0.95rem, 3vw, 1.05rem);
     }
     
